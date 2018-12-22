@@ -1,0 +1,34 @@
+.balls{
+    position: relative;
+}
+
+.ball{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.ball.first{
+    position: absolute;
+    top: -95px;
+    left: -90px;
+    background: radial-gradient(purple,mediumpurple, white);
+    /*background: yellow;*/
+}
+
+.ball.second{
+    position: absolute;
+    top: -75px;
+    left: -145px;
+    background: radial-gradient(blue,cornflowerblue, white);
+    /*background: blue;*/
+}
+
+.ball.third{
+    position: absolute;
+    top: -120px;
+    left: -125px;
+    background: radial-gradient(darkred,red, white);
+    /*background: red;*/
+}

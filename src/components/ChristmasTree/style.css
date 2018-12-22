@@ -51,30 +51,3 @@
     border-bottom: 200px solid #499F68;
 }
 
-.ball{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-.ball.first{
-    position: absolute;
-    top: 30px;
-    left: 95px;
-    background: yellow;
-}
-
-.ball.second{
-    position: absolute;
-    top: 50px;
-    left: 75px;
-    background: blue;
-}
-
-.ball.third{
-    position: absolute;
-    top: 65px;
-    left: 115px;
-    background: red;
-}
