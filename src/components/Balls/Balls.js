@@ -42,5 +42,4 @@ export default class Balls extends React.Component {
 Balls.propTypes={
     l: PropTypes.number.isRequired,
     t: PropTypes.number.isRequired,
-    color: PropTypes.string.isRequired
 };
