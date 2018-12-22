@@ -10,15 +10,15 @@
 }
 
 .ball.first {
-    position: absolute;
     top: -95px;
     left: -90px;
+    transition-property: background-color;
+    transition-duration: 3s;
     background: radial-gradient(purple, mediumpurple, white);
     /*background: yellow;*/
 }
 
 .ball.second {
-    position: absolute;
     top: -75px;
     left: -145px;
     background: radial-gradient(blue, cornflowerblue, white);
@@ -26,7 +26,6 @@
 }
 
 .ball.third {
-    position: absolute;
     top: -120px;
     left: -125px;
     background: radial-gradient(darkred, red, white);
