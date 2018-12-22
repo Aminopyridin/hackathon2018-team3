@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.css';
-//sdfsdfsdfsdf
+
 export default class ChristmasTree extends React.Component {
     render () {
         return (
