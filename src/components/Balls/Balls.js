@@ -7,12 +7,13 @@ export default class Balls extends React.Component {
         super(props);
     }
     render() {
-        const {l, t} = this.props;
-        return (<div className={`${styles.ball}`} style={{top: `${l}`, left: `${t}`}}/>);
+        const {l, t, color} = this.props;
+        return (<div className={`${styles.ball}`} style={{top: t, left: l, background: color}}/>);
     }
 }
 
 Balls.propTypes={
     l: PropTypes.number.isRequired,
-    t: PropTypes.number.isRequired
+    t: PropTypes.number.isRequired,
+    color: PropTypes.string.isRequired
 };

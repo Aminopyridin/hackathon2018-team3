@@ -9,7 +9,8 @@ export default class App extends React.Component {
             <div className={styles.app}>
                 <div className={styles.treeWrapper}>
                     <ChristmasTree/>
-                    <Balls l={-95} t={-90}/>
+                    <Balls l={-95} t={-90} color={'red'}/>
+                    <Balls l={-150} t={-70} color={'yellow'}/>
                 </div>
             </div>
         );
