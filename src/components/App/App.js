@@ -4,12 +4,12 @@ import styles from './style.css';
 import Balls from "../Balls/Balls";
 //jhghh
 export default class App extends React.Component {
-    render () {
+    render() {
         return (
             <div className={styles.app}>
                 <div className={styles.treeWrapper}>
-                    <ChristmasTree />
-                    <Balls />
+                    <ChristmasTree/>
+                    <Balls l={-95} t={-90}/>
                 </div>
             </div>
         );
