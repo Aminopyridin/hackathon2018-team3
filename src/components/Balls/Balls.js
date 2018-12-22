@@ -32,7 +32,7 @@ export default class Balls extends React.Component {
             on: false
         };
     }
-
+//tt
     render() {
         const {l, t} = this.props;
         return (<div className={`${styles.ball}`} style={{top: t, left: l, background: this.state.color}}
