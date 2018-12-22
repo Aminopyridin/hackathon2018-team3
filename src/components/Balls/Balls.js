@@ -28,14 +28,15 @@ export default class Balls extends React.Component {
         super(props);
         let baseColor = Balls.GetColor();
         this.state={
-            color: baseColor
+            color: baseColor,
+            on: false
         };
     }
 
     render() {
-        const {l, t, color} = this.props;
+        const {l, t} = this.props;
         return (<div className={`${styles.ball}`} style={{top: t, left: l, background: this.state.color}}
-                     onClick={() => { this.setState({ color: Balls.GetGradientByColor(this.state.color) });}}/>);
+                     onClick={() => { if (!this.state.on)this.setState({ color: Balls.GetGradientByColor(this.state.color), on: true });}}/>);
     }
 }
 
